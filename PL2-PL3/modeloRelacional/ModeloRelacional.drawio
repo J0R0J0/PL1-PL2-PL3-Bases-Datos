@@ -1,0 +1,121 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="BZl7nJYF4ZYNK8ph9kCS">
+    <mxGraphModel dx="574" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eJwJJtBb7J2tbolTn26o-1" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;DISCO&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Nom_Grupo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Atribute&lt;/td&gt;&lt;td&gt;URL_portada&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="515" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-2" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;GRUPO&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Nombre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Atribute&lt;/td&gt;&lt;td&gt;URL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="660" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-3" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;USUARIO&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Atribute&lt;/td&gt;&lt;td&gt;Nombre&lt;br&gt;Password&lt;br&gt;Email&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="1060" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-4" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;CANCIÓN&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;br&gt;Título_Canción&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Atribute&lt;/td&gt;&lt;td&gt;Duración&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="505" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;EDICiÓN&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;br&gt;Año_Edición&lt;br&gt;Formato&lt;br&gt;País&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="1190" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;DESEA&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;br&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="910" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-7" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;DISPONE&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;br&gt;Formato&lt;br&gt;Año_Edición&lt;br&gt;País&lt;br&gt;Nom_Usuario&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;Formato&lt;br&gt;Año_Edición&lt;br&gt;País&lt;br&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;FK3&amp;nbsp; &amp;nbsp; &amp;nbsp; Nom_Usuario&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AtributeEstado&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="830" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eJwJJtBb7J2tbolTn26o-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;GENEROSDSC&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Año_Publicacióm&lt;br&gt;Título_Disco&lt;br&gt;Géneros&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;Año_Publicación&lt;br&gt;Título_Disco&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="665" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-1" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.008;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.353;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startArrow=classic;startFill=1;" parent="1" source="eJwJJtBb7J2tbolTn26o-1" target="eJwJJtBb7J2tbolTn26o-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="550" as="sourcePoint" />
+            <mxPoint x="1500" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="549" />
+              <mxPoint x="1000" y="480" />
+              <mxPoint x="1280" y="480" />
+              <mxPoint x="1280" y="587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="eJwJJtBb7J2tbolTn26o-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="870" as="sourcePoint" />
+            <mxPoint x="1000" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.008;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="eJwJJtBb7J2tbolTn26o-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="800" as="sourcePoint" />
+            <mxPoint x="1360" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="800" />
+              <mxPoint x="1310" y="991" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.014;entryY=0.722;entryDx=0;entryDy=0;exitX=-0.002;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;entryPerimeter=0;" parent="1" source="eJwJJtBb7J2tbolTn26o-5" target="eJwJJtBb7J2tbolTn26o-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1020" as="sourcePoint" />
+            <mxPoint x="1470" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="1245" />
+              <mxPoint x="1000" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.002;entryY=0.854;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="eJwJJtBb7J2tbolTn26o-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="950" as="sourcePoint" />
+            <mxPoint x="1330" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="990" />
+              <mxPoint x="920" y="990" />
+              <mxPoint x="920" y="1301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="746" as="sourcePoint" />
+            <mxPoint x="1389" y="746" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.002;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" parent="1" source="eJwJJtBb7J2tbolTn26o-1" target="eJwJJtBb7J2tbolTn26o-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="850" as="sourcePoint" />
+            <mxPoint x="1450" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="573" />
+              <mxPoint x="1020" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.004;exitY=0.332;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.898;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;startArrow=classic;startFill=1;" parent="1" source="eJwJJtBb7J2tbolTn26o-3" target="eJwJJtBb7J2tbolTn26o-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="1190" as="sourcePoint" />
+            <mxPoint x="1200" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="1090" />
+              <mxPoint x="1020" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hzk0unB5cDyQ4m2iNCm5-10" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.001;entryY=0.884;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="eJwJJtBb7J2tbolTn26o-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1090" as="sourcePoint" />
+            <mxPoint x="1200" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="1016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
